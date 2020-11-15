@@ -1,0 +1,15 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sim_1/new/testbench.v,1590664236,verilog,,,,testbench,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/ip/Memory/sim/Memory.v,1590662160,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/ALU.v,,Memory,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/ALU.v,1590667797,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/CU.v,,ALU,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/CU.v,1590719211,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/IR.v,,Control_Unit,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/IR.v,1590674888,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/InsCut.v,,IR,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/InsCut.v,1590575636,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/Multi_CPU.v,,InsCut,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/Multi_CPU.v,1590716191,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/PC.v,,Mulit_CPU,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/PC.v,1590665323,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/PCAdd.v,,PC,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/PCAdd.v,1590672491,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/RegFile.v,,PCAdd,,,,,,,,
+E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sources_1/new/RegFile.v,1590549093,verilog,,E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.srcs/sim_1/new/testbench.v,,RegFile,,,,,,,,

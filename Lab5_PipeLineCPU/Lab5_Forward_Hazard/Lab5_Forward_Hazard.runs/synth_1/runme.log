@@ -1,0 +1,598 @@
+
+*** Running vivado
+    with args -log pipeline.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pipeline.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source pipeline.tcl -notrace
+Command: synth_design -top pipeline -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2828 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 726.168 ; gain = 176.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'pipeline' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v:4]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (1#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'DFF' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/DFF.v:5]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DFF' (2#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/DFF.v:5]
+INFO: [Synth 8-6157] synthesizing module 'InsMem' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.runs/synth_1/.Xil/Vivado-14756-DESKTOP-K0457RM/realtime/InsMem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'InsMem' (3#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.runs/synth_1/.Xil/Vivado-14756-DESKTOP-K0457RM/realtime/InsMem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v:4]
+	Parameter N bound to: 32 - type: integer 
+WARNING: [Synth 8-3848] Net of in module/entity ALU does not have driver. [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v:11]
+WARNING: [Synth 8-3848] Net sf in module/entity ALU does not have driver. [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (4#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v:4]
+WARNING: [Synth 8-7023] instance 'ALUPC_plus_4' of module 'ALU' has 8 connections declared, but only 4 given [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:82]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/IF_ID.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID' (5#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/IF_ID.v:4]
+INFO: [Synth 8-6157] synthesizing module 'InsCut' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/InsCut.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'InsCut' (6#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/InsCut.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Control_Unit' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Control_Unit.v:4]
+	Parameter ADD bound to: 6'b000000 
+	Parameter ADDI bound to: 6'b001000 
+	Parameter LW bound to: 6'b100011 
+	Parameter SW bound to: 6'b101011 
+	Parameter BEQ bound to: 6'b000100 
+	Parameter JUMP bound to: 6'b000010 
+INFO: [Synth 8-6155] done synthesizing module 'Control_Unit' (7#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Control_Unit.v:4]
+INFO: [Synth 8-6157] synthesizing module 'RegFile' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/RegFile.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'RegFile' (8#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/RegFile.v:4]
+INFO: [Synth 8-6157] synthesizing module 'Hazard' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Hazard.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Hazard' (9#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Hazard.v:4]
+WARNING: [Synth 8-7023] instance 'ALU_ID_BEQ' of module 'ALU' has 8 connections declared, but only 4 given [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:126]
+INFO: [Synth 8-6157] synthesizing module 'ID_EXE' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ID_EXE.v:4]
+WARNING: [Synth 8-5788] Register EXE_NPC_reg in module ID_EXE is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ID_EXE.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EXE' (10#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ID_EXE.v:4]
+WARNING: [Synth 8-689] width (1) of port connection 'EXE_ALUSrc' does not match port width (2) of module 'ID_EXE' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:141]
+WARNING: [Synth 8-7023] instance 'IDEXE' of module 'ID_EXE' has 31 connections declared, but only 26 given [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:129]
+INFO: [Synth 8-6157] synthesizing module 'Forwarding' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'Forwarding' (11#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux4__parameterized0' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v:4]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'mux4__parameterized0' (11#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v:4]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (12#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v:4]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (12#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v:4]
+WARNING: [Synth 8-7023] instance 'ALU_EXE' of module 'ALU' has 8 connections declared, but only 4 given [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:171]
+INFO: [Synth 8-6157] synthesizing module 'EXE_MEM' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/EXE_MEM.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'EXE_MEM' (13#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/EXE_MEM.v:4]
+INFO: [Synth 8-6157] synthesizing module 'DataMem' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.runs/synth_1/.Xil/Vivado-14756-DESKTOP-K0457RM/realtime/DataMem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DataMem' (14#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.runs/synth_1/.Xil/Vivado-14756-DESKTOP-K0457RM/realtime/DataMem_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/MEM_WB.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB' (15#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/MEM_WB.v:4]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized1' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v:4]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized1' (15#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'pipeline' (16#1) [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:4]
+WARNING: [Synth 8-3331] design ALU has unconnected port of
+WARNING: [Synth 8-3331] design ALU has unconnected port sf
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_MemtoReg
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_MemtoReg
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[31]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[30]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[29]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[28]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[27]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[26]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[25]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[24]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[23]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[22]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[21]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[20]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[19]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[18]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[17]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[16]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[15]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[14]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[13]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[12]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[11]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[10]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[9]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[8]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[7]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[6]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[5]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[4]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[3]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[2]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[1]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[0]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[31]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[30]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[29]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[28]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[27]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[26]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[25]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[24]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[23]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[22]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[21]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[20]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[19]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[18]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[17]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[16]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[15]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[14]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[13]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[12]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[11]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[10]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[9]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[8]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[7]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[6]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[5]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[4]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[3]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[2]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[1]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_Y[0]
+WARNING: [Synth 8-3331] design ID_EXE has unconnected port EN
+WARNING: [Synth 8-3331] design Hazard has unconnected port MEM_MemRead
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port CLK
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port funct[5]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port funct[4]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port funct[3]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port funct[2]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port funct[1]
+WARNING: [Synth 8-3331] design Control_Unit has unconnected port funct[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 791.191 ; gain = 241.094
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 791.191 ; gain = 241.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 791.191 ; gain = 241.094
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/DataMem/DataMem/DataMem_in_context.xdc] for cell 'DM'
+Finished Parsing XDC File [e:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/DataMem/DataMem/DataMem_in_context.xdc] for cell 'DM'
+Parsing XDC File [e:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/InsMem/InsMem/InsMem_in_context.xdc] for cell 'IM'
+Finished Parsing XDC File [e:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/InsMem/InsMem/InsMem_in_context.xdc] for cell 'IM'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 907.934 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 907.934 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for DM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for IM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'Count_reg' in module 'Hazard'
+WARNING: [Synth 8-327] inferring latch for variable 'cf_reg' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v:17]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE1 |                               01 |                               01
+                 iSTATE2 |                               10 |                               10
+                 iSTATE0 |                               11 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Count_reg' using encoding 'sequential' in module 'Hazard'
+WARNING: [Synth 8-327] inferring latch for variable 'EXE_Forward_SelA_reg' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v:22]
+WARNING: [Synth 8-327] inferring latch for variable 'EXE_Forward_SelB_reg' [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v:26]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 3     
+	   3 Input     33 Bit       Adders := 3     
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 14    
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 13    
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 3     
+	   7 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pipeline 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module mux4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module DFF 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
++---Muxes : 
+	   7 Input     32 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module IF_ID 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+Module Control_Unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      1 Bit        Muxes := 8     
+Module RegFile 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
+Module Hazard 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module ID_EXE 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module mux4__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module EXE_MEM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
+Module MEM_WB 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module mux2__parameterized1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design ALU has unconnected port of
+WARNING: [Synth 8-3331] design ALU has unconnected port sf
+WARNING: [Synth 8-3331] design Forwarding has unconnected port MEM_MemtoReg
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_MemtoReg
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[31]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[30]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[29]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[28]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[27]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[26]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[25]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[24]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[23]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[22]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[21]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[20]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[19]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[18]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[17]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[16]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[15]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[14]
+WARNING: [Synth 8-3331] design Forwarding has unconnected port WB_WriteData[13]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (ALUPC_plus_4/cf_reg) is unused and will be removed from module pipeline.
+WARNING: [Synth 8-3332] Sequential element (ALU_ID_BEQ/cf_reg) is unused and will be removed from module pipeline.
+WARNING: [Synth 8-3332] Sequential element (ALU_EXE/cf_reg) is unused and will be removed from module pipeline.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------+-----------+----------------------+---------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++------------+------------+-----------+----------------------+---------------+
+|pipeline    | RF/REG_reg | Implied   | 32 x 32              | RAM32M x 12   | 
++------------+------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+------------+-----------+----------------------+---------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++------------+------------+-----------+----------------------+---------------+
+|pipeline    | RF/REG_reg | Implied   | 32 x 32              | RAM32M x 12   | 
++------------+------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 907.934 ; gain = 357.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |InsMem        |         1|
+|2     |DataMem       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DataMem |     1|
+|2     |InsMem  |     1|
+|3     |BUFG    |     1|
+|4     |CARRY4  |    29|
+|5     |LUT1    |    76|
+|6     |LUT2    |    54|
+|7     |LUT3    |    82|
+|8     |LUT4    |    33|
+|9     |LUT5    |    43|
+|10    |LUT6    |   128|
+|11    |RAM32M  |    12|
+|12    |FDCE    |   303|
+|13    |FDRE    |    10|
+|14    |LDC     |     2|
+|15    |LDP     |     2|
+|16    |IBUF    |     2|
++------+--------+------+
+
+Report Instance Areas: 
++------+-------------+-----------+------+
+|      |Instance     |Module     |Cells |
++------+-------------+-----------+------+
+|1     |top          |           |   841|
+|2     |  ALU_EXE    |ALU        |    80|
+|3     |  ALU_ID_BEQ |ALU_0      |    67|
+|4     |  DFFPC      |DFF        |    24|
+|5     |  EXEMEM     |EXE_MEM    |    75|
+|6     |  Forward    |Forwarding |   163|
+|7     |  Hazard     |Hazard     |     5|
+|8     |  IDEXE      |ID_EXE     |   133|
+|9     |  IFID       |IF_ID      |    75|
+|10    |  MEMWB      |MEM_WB     |   107|
+|11    |  RF         |RegFile    |    44|
++------+-------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 83 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 918.520 ; gain = 251.680
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 918.520 ; gain = 368.422
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 45 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 934.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LDC => LDCE: 2 instances
+  LDP => LDPE: 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 934.602 ; gain = 633.598
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 934.602 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.runs/synth_1/pipeline.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pipeline_utilization_synth.rpt -pb pipeline_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 17 13:02:59 2020...

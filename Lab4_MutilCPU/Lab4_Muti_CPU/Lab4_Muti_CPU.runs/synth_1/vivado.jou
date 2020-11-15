@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 29 09:25:57 2020
+# Process ID: 4224
+# Current directory: E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.runs/synth_1
+# Command line: vivado.exe -log Mulit_CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mulit_CPU.tcl
+# Log file: E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.runs/synth_1/Mulit_CPU.vds
+# Journal file: E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Mulit_CPU.tcl -notrace

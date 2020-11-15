@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/vivado/lab5_pipeline/lab5_pipeline.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sim_1/new/testbench.v,1592222243,verilog,,,,testbench,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/ip/DataMem/sim/DataMem.v,1592031270,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/ip/InsMem/sim/InsMem.v,,DataMem,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/ip/InsMem/sim/InsMem.v,1592031295,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/ALU.v,,InsMem,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/ALU.v,1591958170,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/Control_Unit.v,,ALU,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/Control_Unit.v,1592218651,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/DFF.v,,Control_Unit,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/DFF.v,1591958265,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/EXE.v,,DFF,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/EXE.v,1592208336,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/ID.v,,EXE_MEM,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/ID.v,1592148806,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/IF.v,,ID_EXE,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/IF.v,1592216331,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/InsCut.v,,IF_ID,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/InsCut.v,1591958252,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/MEM.v,,InsCut,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/MEM.v,1592213405,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/Mux2.v,,MEM_WB,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/Mux2.v,1592121106,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/Mux4.v,,mux2,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/Mux4.v,1592121241,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/RegFile.v,,mux4,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/RegFile.v,1592219719,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/pipeline.v,,RegFile,,,,,,,,
+E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sources_1/new/pipeline.v,1592220105,verilog,,E:/vivado/lab5_pipeline/lab5_pipeline.srcs/sim_1/new/testbench.v,,pipeline,,,,,,,,

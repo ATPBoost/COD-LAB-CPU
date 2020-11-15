@@ -1,0 +1,23 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.ip_user_files/ip/DataMem/sim/DataMem.v,1592444272,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/InsMem/sim/InsMem.v,,DataMem,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sim_1/new/TestBench.v,1592380704,verilog,,,,TestBench,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/InsMem/sim/InsMem.v,1592415194,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v,,InsMem,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v,1592231059,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Control_Unit.v,,ALU,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Compare.v,1592377346,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Control_Unit.v,,Compare,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Control_Unit.v,1592398415,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/DFF.v,,Control_Unit,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/DFF.v,1592230876,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/EXE_MEM.v,,DFF,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/EXE_MEM.v,1592381739,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v,,EXE_MEM,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v,1592400233,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Hazard.v,,Forwarding,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Hazard.v,1592443273,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ID_EXE.v,,Hazard,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ID_EXE.v,1592401288,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/IF_ID.v,,ID_EXE,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/IF_ID.v,1592388532,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/InsCut.v,,IF_ID,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/InsCut.v,1592231025,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/MEM_WB.v,,InsCut,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/MEM_WB.v,1592381737,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/RegFile.v,,MEM_WB,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/RegFile.v,1592230836,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v,,RegFile,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v,1592230964,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v,,mux2,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v,1592230892,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v,,mux4,,,,,,,,
+E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v,1592444339,verilog,,E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sim_1/new/TestBench.v,,pipeline,,,,,,,,

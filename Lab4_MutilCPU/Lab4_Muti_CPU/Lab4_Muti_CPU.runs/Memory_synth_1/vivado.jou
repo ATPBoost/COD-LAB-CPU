@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 28 18:36:04 2020
+# Process ID: 15604
+# Current directory: E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.runs/Memory_synth_1
+# Command line: vivado.exe -log Memory.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Memory.tcl
+# Log file: E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.runs/Memory_synth_1/Memory.vds
+# Journal file: E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.runs/Memory_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Memory.tcl -notrace

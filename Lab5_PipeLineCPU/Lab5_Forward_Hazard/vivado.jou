@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun 17 12:20:07 2020
+# Process ID: 1104
+# Current directory: E:/vivado/Lab5_Forward_Hazard
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1604 E:\vivado\Lab5_Forward_Hazard\Lab5_Forward_Hazard.xpr
+# Log file: E:/vivado/Lab5_Forward_Hazard/vivado.log
+# Journal file: E:/vivado/Lab5_Forward_Hazard\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+file mkdir E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sim_1/new/TestBench.v w ]
+add_files -fileset sim_1 E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sim_1/new/TestBench.v
+update_compile_order -fileset sim_1
+launch_simulation
+source pipeline.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TestBench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TestBench.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source TestBench.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

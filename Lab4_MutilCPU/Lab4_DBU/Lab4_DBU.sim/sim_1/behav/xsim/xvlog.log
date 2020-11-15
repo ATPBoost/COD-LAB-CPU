@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/ip/Memory/sim/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/DBU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DebugUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/DBU_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBU_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/InsCut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsCut
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/PCAdd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdd
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/edg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EDG
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_DBU

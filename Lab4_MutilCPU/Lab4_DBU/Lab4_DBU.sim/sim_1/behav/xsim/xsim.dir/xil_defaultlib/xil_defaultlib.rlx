@@ -1,0 +1,17 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/vivado/Lab4_DBU/Lab4_DBU.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sim_1/new/sim.v,1591250415,verilog,,,,test_DBU,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/ip/Memory/sim/Memory.v,1591251361,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/ALU.v,,Memory,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/ALU.v,1591193295,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/Control_Unit.v,,ALU,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/Control_Unit.v,1591238896,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/DBU.v,,Control_Unit,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/DBU.v,1591179665,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/DBU_CPU.v,,DebugUnit,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/DBU_CPU.v,1591250923,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/IR.v,,DBU_CPU,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/IR.v,1591184537,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/InsCut.v,,IR,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/InsCut.v,1591251050,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/PC.v,,InsCut,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/PC.v,1591184701,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/PCAdd.v,,PC,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/PCAdd.v,1591176480,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/RegFile.v,,PCAdd,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/RegFile.v,1591174966,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/edg.v,,RegFile,,,,,,,,
+E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sources_1/new/edg.v,1591179694,verilog,,E:/vivado/Lab4_DBU/Lab4_DBU.srcs/sim_1/new/sim.v,,EDG,,,,,,,,

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun  4 20:48:43 2020
+# Process ID: 12032
+# Current directory: E:/vivado/Lab4_Muti_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15208 E:\vivado\Lab4_Muti_CPU\Lab4_Muti_CPU.xpr
+# Log file: E:/vivado/Lab4_Muti_CPU/vivado.log
+# Journal file: E:/vivado/Lab4_Muti_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado/Lab4_Muti_CPU/Lab4_Muti_CPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1590715700">
+  <File Type="PA-DCP" Name="Mulit_CPU.dcp"/>
+  <File Type="OPT-HWDEF" Name="Mulit_CPU.hwdef"/>
+  <File Type="PA-TCL" Name="Mulit_CPU.tcl"/>
+  <File Type="BITSTR-BMM" Name="Mulit_CPU_bd.bmm"/>
+  <File Type="OPT-DCP" Name="Mulit_CPU_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="Mulit_CPU_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Mulit_CPU_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Mulit_CPU_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Mulit_CPU_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Mulit_CPU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Mulit_CPU_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Mulit_CPU.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Mulit_CPU_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Mulit_CPU.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Mulit_CPU_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Mulit_CPU_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Mulit_CPU_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="Mulit_CPU.ltx"/>
+  <File Type="BITSTR-MMI" Name="Mulit_CPU.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Mulit_CPU.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="Mulit_CPU_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Mulit_CPU_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Mulit_CPU_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Mulit_CPU.bit"/>
+  <File Type="BITSTR-RBT" Name="Mulit_CPU.rbt"/>
+  <File Type="BITSTR-NKY" Name="Mulit_CPU.nky"/>
+  <File Type="BG-BGN" Name="Mulit_CPU.bgn"/>
+  <File Type="BG-DRC" Name="Mulit_CPU.drc"/>
+  <File Type="RDI-RDI" Name="Mulit_CPU.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ALU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IR.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/InsCut.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCAdd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RegFile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Multi_CPU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/lab4_test/test.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Mulit_CPU"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Memory"/>
+</GenRun>

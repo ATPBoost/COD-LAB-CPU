@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.ip_user_files/ip/DataMem/sim/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/ip/InsMem/sim/InsMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/EXE_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/ID_EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/InsCut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InsCut
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline
+INFO: [VRFC 10-2458] undeclared symbol ID_Forward_SelA, assumed default net type wire [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:168]
+INFO: [VRFC 10-2458] undeclared symbol ID_Forward_SelB, assumed default net type wire [E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sources_1/new/pipeline_CPU.v:168]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado/Lab5_Forward_Hazard/Lab5_Forward_Hazard.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench

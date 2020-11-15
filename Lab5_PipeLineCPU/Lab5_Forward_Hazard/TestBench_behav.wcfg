@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="65070000fs"></ZoomStartTime>
+      <ZoomEndTime time="145186670fs"></ZoomEndTime>
+      <Cursor1Time time="129966000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="111"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/TestBench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/PC_EN" type="logic">
+      <obj_property name="ElementShortName">PC_EN</obj_property>
+      <obj_property name="ObjectShortName">PC_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/IF_ID_EN" type="logic">
+      <obj_property name="ElementShortName">IF_ID_EN</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/IF_ID_FLUSH" type="logic">
+      <obj_property name="ElementShortName">IF_ID_FLUSH</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_FLUSH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_EXE_FLUSH" type="logic">
+      <obj_property name="ElementShortName">ID_EXE_FLUSH</obj_property>
+      <obj_property name="ObjectShortName">ID_EXE_FLUSH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/Count" type="array">
+      <obj_property name="ElementShortName">Count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_PCSrc" type="array">
+      <obj_property name="ElementShortName">ID_PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PCSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Jump" type="logic">
+      <obj_property name="ElementShortName">ID_Jump</obj_property>
+      <obj_property name="ObjectShortName">ID_Jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Zero" type="logic">
+      <obj_property name="ElementShortName">ID_Zero</obj_property>
+      <obj_property name="ObjectShortName">ID_Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Branch" type="logic">
+      <obj_property name="ElementShortName">ID_Branch</obj_property>
+      <obj_property name="ObjectShortName">ID_Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/IF_PC" type="array">
+      <obj_property name="ElementShortName">IF_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/IF_PC_Plus" type="array">
+      <obj_property name="ElementShortName">IF_PC_Plus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC_Plus[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/IF_NPC" type="array">
+      <obj_property name="ElementShortName">IF_NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_NPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_NPC_Branch" type="array">
+      <obj_property name="ElementShortName">ID_NPC_Branch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_NPC_Branch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_NPC_Jump" type="array">
+      <obj_property name="ElementShortName">ID_NPC_Jump[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_NPC_Jump[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/IF_IR" type="array">
+      <obj_property name="ElementShortName">IF_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_PC" type="array">
+      <obj_property name="ElementShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_IR" type="array">
+      <obj_property name="ElementShortName">ID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Opcode" type="array">
+      <obj_property name="ElementShortName">ID_Opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Rs" type="array">
+      <obj_property name="ElementShortName">ID_Rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Rt" type="array">
+      <obj_property name="ElementShortName">ID_Rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_Rd" type="array">
+      <obj_property name="ElementShortName">ID_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_EXT_IMM" type="array">
+      <obj_property name="ElementShortName">ID_EXT_IMM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EXT_IMM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_A" type="array">
+      <obj_property name="ElementShortName">EXE_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_B" type="array">
+      <obj_property name="ElementShortName">EXE_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_EXT_IMM" type="array">
+      <obj_property name="ElementShortName">EXE_EXT_IMM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_EXT_IMM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_Forward_SelA" type="array">
+      <obj_property name="ElementShortName">EXE_Forward_SelA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_Forward_SelA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_Forward_SelB" type="array">
+      <obj_property name="ElementShortName">EXE_Forward_SelB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_Forward_SelB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_ALUA" type="array">
+      <obj_property name="ElementShortName">EXE_ALUA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_ALUA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_ALUB" type="array">
+      <obj_property name="ElementShortName">EXE_ALUB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_ALUB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_ALURes" type="array">
+      <obj_property name="ElementShortName">EXE_ALURes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_ALURes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/MEM_Y" type="array">
+      <obj_property name="ElementShortName">MEM_Y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_Y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/WB_MDR" type="array">
+      <obj_property name="ElementShortName">WB_MDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_MDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/MEM_ReadData" type="array">
+      <obj_property name="ElementShortName">MEM_ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/WB_WriteData" type="array">
+      <obj_property name="ElementShortName">WB_WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/EXE_WA" type="array">
+      <obj_property name="ElementShortName">EXE_WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_WA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/WB_WA" type="array">
+      <obj_property name="ElementShortName">WB_WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_WA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/MEM_WA" type="array">
+      <obj_property name="ElementShortName">MEM_WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_ReadData1" type="array">
+      <obj_property name="ElementShortName">ID_ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ppU/ID_ReadData2" type="array">
+      <obj_property name="ElementShortName">ID_ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_ReadData2[31:0]</obj_property>
+   </wvobject>
+</wave_config>
